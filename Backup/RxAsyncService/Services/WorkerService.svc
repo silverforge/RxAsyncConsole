@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="RxAsyncService.Services.WorkerService" CodeBehind="Services/WorkerService.svc.cs" %>

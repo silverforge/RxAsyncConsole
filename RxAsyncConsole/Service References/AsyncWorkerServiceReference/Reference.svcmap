@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="c16d6f21-dd44-4f86-a902-6639d0e5beb4" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:53992/Services/AsyncWorkerService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="AsyncWorkerService.xsd" MetadataType="Schema" ID="49db9a88-176c-43e5-966f-c3cde57a6605" SourceId="1" SourceUrl="http://localhost:53992/Services/AsyncWorkerService.svc?xsd=xsd0" />
+    <MetadataFile FileName="AsyncWorkerService1.xsd" MetadataType="Schema" ID="146000ae-3d8d-49f8-8a72-d000b588ac86" SourceId="1" SourceUrl="http://localhost:53992/Services/AsyncWorkerService.svc?xsd=xsd1" />
+    <MetadataFile FileName="AsyncWorkerService.wsdl" MetadataType="Wsdl" ID="7b6dc449-06a0-4ff6-898e-d559a791d28c" SourceId="1" SourceUrl="http://localhost:53992/Services/AsyncWorkerService.svc?wsdl" />
+    <MetadataFile FileName="AsyncWorkerService.disco" MetadataType="Disco" ID="a1fdb8c0-6c17-4845-9b93-31954e493dd5" SourceId="1" SourceUrl="http://localhost:53992/Services/AsyncWorkerService.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
